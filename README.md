@@ -161,3 +161,14 @@ flowchart LR
 ## License
 
 MIT.
+
+
+## Documentation and test artifacts
+
+- Long-form research report (15-page target, in progress): [`docs/_report/research_report.md`](./docs/_report/research_report.md). Render to PDF with `make pdf` (requires `pandoc` + `xelatex`).
+- Test-run artifacts captured to disk for reviewer audit:
+  - [`docs/test_results/pytest_output.txt`](./docs/test_results/pytest_output.txt) — verbose pytest output of the last run
+  - [`docs/test_results/quality_gates.txt`](./docs/test_results/quality_gates.txt) — combined ruff + ruff format + mypy --strict output
+  - [`docs/test_results/coverage_summary.txt`](./docs/test_results/coverage_summary.txt) — pytest-cov summary
+- Regenerate with `make test-artifacts`.
+

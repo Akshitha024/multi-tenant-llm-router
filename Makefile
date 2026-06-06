@@ -23,3 +23,11 @@ plots: ; uv run router plots --out-dir results/figures
 clean:
 	rm -rf build dist *.egg-info .pytest_cache .mypy_cache .ruff_cache
 	find . -type d -name __pycache__ -exec rm -rf {} +
+
+
+.PHONY: pdf test-artifacts
+pdf:
+	cd docs/_report && pandoc research_report.md -o ../research_report.pdf --pdf-engine=xelatex || echo "pandoc + xelatex required; see https://pandoc.org/installing.html"
+
+test-artifacts:
+	uv run python ../../_meta/retrofit.py "$(notdir $(CURDIR))" "$(notdir $(CURDIR))"

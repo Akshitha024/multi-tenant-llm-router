@@ -1,0 +1,29 @@
+...............                                                          [100%]
+=============================== warnings summary ===============================
+.venv/lib/python3.11/site-packages/fastapi/testclient.py:1
+  /Users/mani/Projects/akshitha-portfolio/projects/vllm-multi-lora-router/.venv/lib/python3.11/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.11.14-final-0 _______________
+
+Name                               Stmts   Miss  Cover
+------------------------------------------------------
+src/router/__init__.py                 1      0   100%
+src/router/adapters/__init__.py        0      0   100%
+src/router/adapters/cache.py          42      0   100%
+src/router/auth/__init__.py            0      0   100%
+src/router/auth/keys.py               28      1    96%
+src/router/bench/__init__.py           0      0   100%
+src/router/bench/load.py              55     55     0%
+src/router/cli/__init__.py             0      0   100%
+src/router/cli/main.py                30     30     0%
+src/router/routing/__init__.py         0      0   100%
+src/router/routing/backend.py         24      0   100%
+src/router/routing/router_app.py      79      2    97%
+src/router/types.py                   40      0   100%
+src/router/viz/__init__.py             0      0   100%
+src/router/viz/charts.py             152    152     0%
+------------------------------------------------------
+TOTAL                                451    240    47%
