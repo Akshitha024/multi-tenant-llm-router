@@ -1,0 +1,11 @@
+t1:
+  api_key: secret-t1
+  allowed_adapters: [a0, a1, a2, a3, a4, a5, a6, a7, a8, a9]
+  rate_limit_rps: 20.0
+  cost_per_1k_tokens_usd: 0.002
+
+t2:
+  api_key: secret-t2
+  allowed_adapters: [a0, a3]
+  rate_limit_rps: 5.0
+  cost_per_1k_tokens_usd: 0.001
