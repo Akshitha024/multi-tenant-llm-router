@@ -19,3 +19,6 @@ adapters_cache/
 .vscode/
 *.swp
 .DS_Store
+
+# always track the rendered report PDF
+!docs/research_report.pdf
