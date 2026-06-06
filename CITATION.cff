@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: router — Multi-LoRA serving router on vLLM
+authors:
+  - family-names: Lingampally
+    given-names: Akshitha Reddy
+type: software
+date-released: 2024-07-15
+repository-code: https://github.com/Akshitha024/vllm-multi-lora-router
+license: MIT
+references:
+  - type: article
+    title: "Efficient Memory Management for Large Language Model Serving with PagedAttention"
+    authors: [{family-names: Kwon, given-names: Woosuk}]
+    year: 2023
+    url: https://arxiv.org/abs/2309.06180
+  - type: article
+    title: "S-LoRA: Serving Thousands of Concurrent LoRA Adapters"
+    authors: [{family-names: Sheng, given-names: Ying}]
+    year: 2023
+    url: https://arxiv.org/abs/2311.03285
+  - type: article
+    title: "LoRA: Low-Rank Adaptation of Large Language Models"
+    authors: [{family-names: Hu, given-names: Edward J.}]
+    year: 2022
+    url: https://arxiv.org/abs/2106.09685
