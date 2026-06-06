@@ -1,0 +1,429 @@
+{"ts": 1780733814.44559, "adapter": "a2", "status": 200, "wall_ms": 32.984018325805664, "client": 1, "server_ms": 140.603396695698, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.4486039, "adapter": "a2", "status": 200, "wall_ms": 30.04622459411621, "client": 2, "server_ms": 140.28974514667016, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.4294279, "adapter": "a2", "status": 200, "wall_ms": 49.28708076477051, "client": 0, "server_ms": 176.29533105933265, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733814.451485, "adapter": "a2", "status": 200, "wall_ms": 27.671098709106445, "client": 3, "server_ms": 142.60373789215942, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.4542851, "adapter": "a3", "status": 200, "wall_ms": 24.936914443969727, "client": 4, "server_ms": 177.14352801722674, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733814.457068, "adapter": "a1", "status": 200, "wall_ms": 22.2170352935791, "client": 5, "server_ms": 176.46275566765036, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733814.548476, "adapter": "a0", "status": 200, "wall_ms": 17.91095733642578, "client": 5, "server_ms": 175.23199569909883, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733814.628685, "adapter": "a0", "status": 200, "wall_ms": 19.178152084350586, "client": 4, "server_ms": 142.02974293275767, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.629378, "adapter": "a1", "status": 200, "wall_ms": 18.908977508544922, "client": 1, "server_ms": 140.14998263376793, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.651092, "adapter": "a1", "status": 200, "wall_ms": 18.03302764892578, "client": 1, "server_ms": 141.73458273464954, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.651503, "adapter": "a8", "status": 200, "wall_ms": 18.04804801940918, "client": 4, "server_ms": 175.27942169429846, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733814.67238, "adapter": "a1", "status": 200, "wall_ms": 18.196821212768555, "client": 5, "server_ms": 140.36285205337546, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.7027369, "adapter": "a1", "status": 200, "wall_ms": 18.519163131713867, "client": 4, "server_ms": 141.69807675657006, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.747092, "adapter": "a1", "status": 200, "wall_ms": 19.482135772705078, "client": 5, "server_ms": 143.30740849868815, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.76277, "adapter": "a0", "status": 200, "wall_ms": 18.656015396118164, "client": 3, "server_ms": 140.49520784459858, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.778176, "adapter": "a2", "status": 200, "wall_ms": 18.476009368896484, "client": 4, "server_ms": 175.89295585842805, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733814.840596, "adapter": "a0", "status": 200, "wall_ms": 20.07007598876953, "client": 5, "server_ms": 142.50973288962237, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.845542, "adapter": "a2", "status": 200, "wall_ms": 16.79205894470215, "client": 3, "server_ms": 143.79083576982802, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.8688571, "adapter": "a6", "status": 200, "wall_ms": 17.11273193359375, "client": 0, "server_ms": 177.30841179447, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733814.876065, "adapter": "a2", "status": 200, "wall_ms": 20.513057708740234, "client": 1, "server_ms": 141.58672189860312, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.879467, "adapter": "a1", "status": 200, "wall_ms": 17.544984817504883, "client": 3, "server_ms": 143.90502042237168, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.885526, "adapter": "a1", "status": 200, "wall_ms": 16.707181930541992, "client": 4, "server_ms": 140.186330722471, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.950345, "adapter": "a2", "status": 200, "wall_ms": 19.21987533569336, "client": 1, "server_ms": 143.43387383619472, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733814.955115, "adapter": "a9", "status": 200, "wall_ms": 18.845796585083008, "client": 4, "server_ms": 176.1584371453267, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733814.9599202, "adapter": "a4", "status": 200, "wall_ms": 17.039775848388672, "client": 2, "server_ms": 175.57702033342974, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733815.003121, "adapter": "a0", "status": 200, "wall_ms": 20.710229873657227, "client": 1, "server_ms": 175.47116895231346, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733815.0290508, "adapter": "a0", "status": 200, "wall_ms": 20.21503448486328, "client": 0, "server_ms": 141.23392729640773, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.0629, "adapter": "a1", "status": 200, "wall_ms": 18.511056900024414, "client": 4, "server_ms": 178.26450543648014, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733815.10895, "adapter": "a2", "status": 200, "wall_ms": 18.35918426513672, "client": 1, "server_ms": 175.72290551969576, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733815.1276731, "adapter": "a0", "status": 200, "wall_ms": 18.87679100036621, "client": 3, "server_ms": 142.32640065464986, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.1902158, "adapter": "a0", "status": 200, "wall_ms": 19.61827278137207, "client": 2, "server_ms": 142.55565387570473, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.209273, "adapter": "a5", "status": 200, "wall_ms": 16.57700538635254, "client": 3, "server_ms": 176.48959017090291, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733815.3167338, "adapter": "a2", "status": 200, "wall_ms": 19.846200942993164, "client": 3, "server_ms": 142.19097786283822, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.377316, "adapter": "a2", "status": 200, "wall_ms": 22.216081619262695, "client": 0, "server_ms": 140.2511558998933, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.415755, "adapter": "a0", "status": 200, "wall_ms": 20.472049713134766, "client": 2, "server_ms": 140.23840467986494, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.468781, "adapter": "a0", "status": 200, "wall_ms": 19.56796646118164, "client": 5, "server_ms": 140.8238348512773, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.4695182, "adapter": "a2", "status": 200, "wall_ms": 19.3789005279541, "client": 1, "server_ms": 142.72159989272714, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.538431, "adapter": "a2", "status": 200, "wall_ms": 20.47109603881836, "client": 3, "server_ms": 141.7103692226776, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.589045, "adapter": "a1", "status": 200, "wall_ms": 17.53687858581543, "client": 2, "server_ms": 141.25658868150717, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.601116, "adapter": "a0", "status": 200, "wall_ms": 16.488075256347656, "client": 4, "server_ms": 142.34224745403054, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.61428, "adapter": "a2", "status": 200, "wall_ms": 18.72396469116211, "client": 2, "server_ms": 141.8127375054831, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.716693, "adapter": "a1", "status": 200, "wall_ms": 19.291162490844727, "client": 0, "server_ms": 141.19906798745473, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.7687218, "adapter": "a2", "status": 200, "wall_ms": 17.618179321289062, "client": 0, "server_ms": 143.17751792608996, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.779994, "adapter": "a0", "status": 200, "wall_ms": 17.091035842895508, "client": 3, "server_ms": 142.7959777349183, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.790677, "adapter": "a6", "status": 200, "wall_ms": 17.307043075561523, "client": 4, "server_ms": 175.9763860428886, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733815.800512, "adapter": "a5", "status": 200, "wall_ms": 20.39504051208496, "client": 5, "server_ms": 177.29769484103468, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733815.825205, "adapter": "a1", "status": 429, "wall_ms": 2.2749900817871094, "client": 4}
+{"ts": 1780733815.8255181, "adapter": "a2", "status": 429, "wall_ms": 2.4199485778808594, "client": 5}
+{"ts": 1780733815.8318772, "adapter": "a0", "status": 429, "wall_ms": 1.5797615051269531, "client": 1}
+{"ts": 1780733815.820968, "adapter": "a1", "status": 200, "wall_ms": 17.328262329101562, "client": 2, "server_ms": 177.1007860152458, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733815.837882, "adapter": "a2", "status": 429, "wall_ms": 1.5168190002441406, "client": 1}
+{"ts": 1780733815.944865, "adapter": "a2", "status": 200, "wall_ms": 19.471168518066406, "client": 4, "server_ms": 178.5005499822937, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733815.983684, "adapter": "a1", "status": 200, "wall_ms": 20.4927921295166, "client": 1, "server_ms": 142.91778115775688, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733815.988495, "adapter": "a1", "status": 200, "wall_ms": 16.460895538330078, "client": 0, "server_ms": 141.15175105956075, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.0088692, "adapter": "a1", "status": 429, "wall_ms": 1.683950424194336, "client": 3}
+{"ts": 1780733816.01766, "adapter": "a1", "status": 200, "wall_ms": 18.493175506591797, "client": 3, "server_ms": 143.92069938997034, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.050278, "adapter": "a1", "status": 429, "wall_ms": 2.538919448852539, "client": 5}
+{"ts": 1780733816.1417851, "adapter": "a6", "status": 200, "wall_ms": 21.294832229614258, "client": 3, "server_ms": 140.47226311301984, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.1727202, "adapter": "a0", "status": 200, "wall_ms": 18.605709075927734, "client": 4, "server_ms": 176.6724912871409, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733816.19957, "adapter": "a1", "status": 200, "wall_ms": 18.666982650756836, "client": 2, "server_ms": 143.028563718261, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.2375062, "adapter": "a4", "status": 200, "wall_ms": 20.282745361328125, "client": 5, "server_ms": 175.60793813864203, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733816.328307, "adapter": "a3", "status": 200, "wall_ms": 20.963191986083984, "client": 4, "server_ms": 176.95585240190323, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733816.394946, "adapter": "a2", "status": 200, "wall_ms": 19.01388168334961, "client": 4, "server_ms": 175.15682902818975, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733816.565185, "adapter": "a1", "status": 200, "wall_ms": 19.160032272338867, "client": 5, "server_ms": 142.67286342613758, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.5727239, "adapter": "a4", "status": 200, "wall_ms": 19.204139709472656, "client": 2, "server_ms": 143.05828346485126, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.591577, "adapter": "a1", "status": 200, "wall_ms": 18.09382438659668, "client": 1, "server_ms": 142.29210376110953, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.618366, "adapter": "a2", "status": 200, "wall_ms": 19.21701431274414, "client": 3, "server_ms": 143.50191124732356, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.6756759, "adapter": "a2", "status": 200, "wall_ms": 20.355224609375, "client": 0, "server_ms": 141.25499005139238, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.871993, "adapter": "a2", "status": 200, "wall_ms": 19.979000091552734, "client": 3, "server_ms": 142.78118146509465, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.895099, "adapter": "a1", "status": 200, "wall_ms": 16.67189598083496, "client": 5, "server_ms": 142.37747950842007, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.9081511, "adapter": "a2", "status": 200, "wall_ms": 20.743846893310547, "client": 0, "server_ms": 142.31958081712997, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.908612, "adapter": "a0", "status": 200, "wall_ms": 21.06499671936035, "client": 2, "server_ms": 176.82482132520565, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733816.943285, "adapter": "a0", "status": 200, "wall_ms": 19.36793327331543, "client": 0, "server_ms": 143.35987112205015, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.9723089, "adapter": "a2", "status": 200, "wall_ms": 19.366025924682617, "client": 4, "server_ms": 143.77872438043175, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733816.996128, "adapter": "a0", "status": 200, "wall_ms": 17.90475845336914, "client": 4, "server_ms": 141.8963933496786, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.05932, "adapter": "a2", "status": 200, "wall_ms": 18.551111221313477, "client": 5, "server_ms": 142.6566088218987, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.063914, "adapter": "a7", "status": 200, "wall_ms": 16.031980514526367, "client": 2, "server_ms": 175.24267771038888, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733817.096983, "adapter": "a0", "status": 200, "wall_ms": 17.8220272064209, "client": 3, "server_ms": 142.8059680852177, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.147844, "adapter": "a5", "status": 429, "wall_ms": 2.6869773864746094, "client": 0}
+{"ts": 1780733817.1482859, "adapter": "a0", "status": 200, "wall_ms": 17.02094078063965, "client": 5, "server_ms": 142.5885154181107, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.2689002, "adapter": "a7", "status": 200, "wall_ms": 21.78192138671875, "client": 0, "server_ms": 143.97238375786654, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.322172, "adapter": "a2", "status": 200, "wall_ms": 19.772052764892578, "client": 1, "server_ms": 143.28769914643885, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.344542, "adapter": "a0", "status": 200, "wall_ms": 19.09804344177246, "client": 0, "server_ms": 141.1383821283766, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.3918662, "adapter": "a2", "status": 200, "wall_ms": 20.01476287841797, "client": 3, "server_ms": 141.54316576978684, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.45238, "adapter": "a0", "status": 200, "wall_ms": 18.597126007080078, "client": 4, "server_ms": 142.67461086353674, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.45537, "adapter": "a0", "status": 200, "wall_ms": 16.28398895263672, "client": 3, "server_ms": 140.09025171222237, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.507427, "adapter": "a3", "status": 200, "wall_ms": 19.207000732421875, "client": 1, "server_ms": 176.84678114519906, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733817.5249228, "adapter": "a7", "status": 200, "wall_ms": 19.04606819152832, "client": 5, "server_ms": 140.6721935156262, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.5825028, "adapter": "a1", "status": 429, "wall_ms": 1.894235610961914, "client": 0}
+{"ts": 1780733817.573714, "adapter": "a2", "status": 200, "wall_ms": 19.52195167541504, "client": 4, "server_ms": 140.46838317792694, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.605791, "adapter": "a1", "status": 429, "wall_ms": 1.764059066772461, "client": 3}
+{"ts": 1780733817.638914, "adapter": "a1", "status": 429, "wall_ms": 3.3767223358154297, "client": 5}
+{"ts": 1780733817.631219, "adapter": "a3", "status": 200, "wall_ms": 17.416000366210938, "client": 3, "server_ms": 140.23581767732523, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.691653, "adapter": "a0", "status": 429, "wall_ms": 4.400968551635742, "client": 0}
+{"ts": 1780733817.6903281, "adapter": "a0", "status": 200, "wall_ms": 21.5606689453125, "client": 1, "server_ms": 143.07293195389008, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.7152581, "adapter": "a0", "status": 429, "wall_ms": 2.4499893188476562, "client": 5}
+{"ts": 1780733817.714582, "adapter": "a0", "status": 200, "wall_ms": 18.49508285522461, "client": 3, "server_ms": 140.51736088807473, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.755748, "adapter": "a0", "status": 429, "wall_ms": 2.6178359985351562, "client": 5}
+{"ts": 1780733817.8163571, "adapter": "a2", "status": 200, "wall_ms": 19.0579891204834, "client": 1, "server_ms": 140.99045933478766, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.878815, "adapter": "a1", "status": 200, "wall_ms": 17.783164978027344, "client": 2, "server_ms": 176.5637988125329, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733817.878253, "adapter": "a3", "status": 200, "wall_ms": 18.784046173095703, "client": 5, "server_ms": 143.4856878965052, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.9443688, "adapter": "a0", "status": 200, "wall_ms": 19.35410499572754, "client": 0, "server_ms": 140.32232520480056, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733817.9624388, "adapter": "a2", "status": 429, "wall_ms": 2.183198928833008, "client": 1}
+{"ts": 1780733817.9724329, "adapter": "a4", "status": 429, "wall_ms": 1.5909671783447266, "client": 1}
+{"ts": 1780733817.960899, "adapter": "a1", "status": 200, "wall_ms": 17.32778549194336, "client": 4, "server_ms": 141.79674960379734, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.004891, "adapter": "a2", "status": 429, "wall_ms": 1.5430450439453125, "client": 3}
+{"ts": 1780733818.1023989, "adapter": "a1", "status": 200, "wall_ms": 20.620107650756836, "client": 2, "server_ms": 142.19775963657614, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.1085272, "adapter": "a2", "status": 200, "wall_ms": 17.175674438476562, "client": 0, "server_ms": 143.53353530576604, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.183851, "adapter": "a2", "status": 200, "wall_ms": 20.802021026611328, "client": 3, "server_ms": 143.27711935134298, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.2437398, "adapter": "a1", "status": 200, "wall_ms": 20.258188247680664, "client": 3, "server_ms": 143.45593787879406, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.398798, "adapter": "a2", "status": 200, "wall_ms": 22.160053253173828, "client": 3, "server_ms": 141.1136842580556, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.399756, "adapter": "a0", "status": 200, "wall_ms": 21.378040313720703, "client": 5, "server_ms": 141.6611860688468, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.4186099, "adapter": "a1", "status": 200, "wall_ms": 20.273208618164062, "client": 0, "server_ms": 141.4350846613265, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.467691, "adapter": "a5", "status": 200, "wall_ms": 19.124984741210938, "client": 2, "server_ms": 178.53677130879288, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733818.490937, "adapter": "a2", "status": 200, "wall_ms": 18.166065216064453, "client": 4, "server_ms": 143.83092481585595, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.538712, "adapter": "a9", "status": 200, "wall_ms": 20.56097984313965, "client": 0, "server_ms": 175.60368362316444, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733818.543006, "adapter": "a1", "status": 200, "wall_ms": 16.97826385498047, "client": 5, "server_ms": 140.70487091396149, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.723896, "adapter": "a2", "status": 200, "wall_ms": 20.70307731628418, "client": 2, "server_ms": 140.92782746727815, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.725284, "adapter": "a1", "status": 200, "wall_ms": 19.967079162597656, "client": 1, "server_ms": 140.93334433472344, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.774146, "adapter": "a8", "status": 200, "wall_ms": 18.105745315551758, "client": 5, "server_ms": 176.93985092136543, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733818.773616, "adapter": "a1", "status": 200, "wall_ms": 19.30093765258789, "client": 3, "server_ms": 142.356494014929, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.791744, "adapter": "a0", "status": 200, "wall_ms": 18.878936767578125, "client": 0, "server_ms": 176.05098647719416, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733818.847775, "adapter": "a6", "status": 429, "wall_ms": 2.958059310913086, "client": 3}
+{"ts": 1780733818.8472161, "adapter": "a1", "status": 200, "wall_ms": 21.263837814331055, "client": 5, "server_ms": 140.01637441354026, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.877053, "adapter": "a2", "status": 429, "wall_ms": 2.702951431274414, "client": 5}
+{"ts": 1780733818.8658729, "adapter": "a2", "status": 200, "wall_ms": 19.085168838500977, "client": 3, "server_ms": 141.6757860045013, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733818.9489322, "adapter": "a2", "status": 429, "wall_ms": 2.0716190338134766, "client": 3}
+{"ts": 1780733818.938304, "adapter": "a6", "status": 200, "wall_ms": 19.463062286376953, "client": 0, "server_ms": 176.4770142915789, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733818.984024, "adapter": "a2", "status": 200, "wall_ms": 18.46599578857422, "client": 5, "server_ms": 142.26536489482558, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733819.056792, "adapter": "a3", "status": 200, "wall_ms": 20.190000534057617, "client": 3, "server_ms": 178.81239170210037, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.068734, "adapter": "a0", "status": 200, "wall_ms": 18.49508285522461, "client": 0, "server_ms": 177.76197462854392, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.102999, "adapter": "a0", "status": 429, "wall_ms": 1.8382072448730469, "client": 4}
+{"ts": 1780733819.164449, "adapter": "a1", "status": 200, "wall_ms": 19.23203468322754, "client": 3, "server_ms": 177.0619657322831, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.1794581, "adapter": "a2", "status": 200, "wall_ms": 19.814729690551758, "client": 4, "server_ms": 142.4703709976365, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733819.225533, "adapter": "a8", "status": 200, "wall_ms": 18.199920654296875, "client": 5, "server_ms": 177.70480032979802, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.245235, "adapter": "a0", "status": 429, "wall_ms": 2.020120620727539, "client": 3}
+{"ts": 1780733819.25807, "adapter": "a1", "status": 429, "wall_ms": 1.7080307006835938, "client": 3}
+{"ts": 1780733819.280143, "adapter": "a0", "status": 429, "wall_ms": 2.4280548095703125, "client": 3}
+{"ts": 1780733819.277983, "adapter": "a5", "status": 200, "wall_ms": 18.802881240844727, "client": 4, "server_ms": 175.21597157289517, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.313674, "adapter": "a6", "status": 200, "wall_ms": 18.84007453918457, "client": 1, "server_ms": 178.5981320402318, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.3595939, "adapter": "a7", "status": 200, "wall_ms": 19.72818374633789, "client": 3, "server_ms": 178.1198779628243, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.39089, "adapter": "a0", "status": 429, "wall_ms": 3.0601024627685547, "client": 0}
+{"ts": 1780733819.458961, "adapter": "a4", "status": 200, "wall_ms": 17.60387420654297, "client": 5, "server_ms": 178.49805273653791, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.469621, "adapter": "a1", "status": 200, "wall_ms": 19.572019577026367, "client": 0, "server_ms": 178.19149248478627, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.522784, "adapter": "a1", "status": 200, "wall_ms": 19.78588104248047, "client": 3, "server_ms": 141.56951562756507, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733819.555794, "adapter": "a7", "status": 429, "wall_ms": 2.878904342651367, "client": 5}
+{"ts": 1780733819.556876, "adapter": "a0", "status": 429, "wall_ms": 2.3109912872314453, "client": 1}
+{"ts": 1780733819.586241, "adapter": "a2", "status": 200, "wall_ms": 17.72284507751465, "client": 5, "server_ms": 176.5959153292811, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.6164742, "adapter": "a2", "status": 429, "wall_ms": 2.753734588623047, "client": 2}
+{"ts": 1780733819.6156359, "adapter": "a8", "status": 200, "wall_ms": 20.003080368041992, "client": 5, "server_ms": 175.4141483748413, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.64221, "adapter": "a2", "status": 429, "wall_ms": 2.9549598693847656, "client": 1}
+{"ts": 1780733819.705766, "adapter": "a9", "status": 200, "wall_ms": 20.32613754272461, "client": 4, "server_ms": 177.53715826274285, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.738527, "adapter": "a0", "status": 200, "wall_ms": 17.24100112915039, "client": 2, "server_ms": 175.24899128647476, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.7751832, "adapter": "a0", "status": 200, "wall_ms": 20.79176902770996, "client": 0, "server_ms": 140.2693904633721, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733819.796044, "adapter": "a1", "status": 429, "wall_ms": 1.7879009246826172, "client": 2}
+{"ts": 1780733819.86993, "adapter": "a9", "status": 200, "wall_ms": 20.37978172302246, "client": 5, "server_ms": 140.83505274178466, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733819.9229782, "adapter": "a1", "status": 200, "wall_ms": 20.61176300048828, "client": 2, "server_ms": 175.64921275108838, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733819.978626, "adapter": "a0", "status": 200, "wall_ms": 16.675949096679688, "client": 1, "server_ms": 141.36021460892937, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733819.9921558, "adapter": "a8", "status": 200, "wall_ms": 17.84515380859375, "client": 5, "server_ms": 140.21030241556107, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.043638, "adapter": "a1", "status": 200, "wall_ms": 18.44000816345215, "client": 0, "server_ms": 140.00093312760544, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.070805, "adapter": "a0", "status": 200, "wall_ms": 18.404006958007812, "client": 5, "server_ms": 140.6050597291177, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.091787, "adapter": "a3", "status": 429, "wall_ms": 1.5549659729003906, "client": 1}
+{"ts": 1780733820.1459332, "adapter": "a0", "status": 200, "wall_ms": 20.978927612304688, "client": 5, "server_ms": 140.4058574720904, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.203927, "adapter": "a6", "status": 429, "wall_ms": 2.897977828979492, "client": 4}
+{"ts": 1780733820.190547, "adapter": "a1", "status": 200, "wall_ms": 18.290996551513672, "client": 5, "server_ms": 141.45443968813828, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.240672, "adapter": "a1", "status": 429, "wall_ms": 2.8259754180908203, "client": 1}
+{"ts": 1780733820.254564, "adapter": "a2", "status": 429, "wall_ms": 3.1518936157226562, "client": 1}
+{"ts": 1780733820.2396412, "adapter": "a1", "status": 200, "wall_ms": 18.686771392822266, "client": 4, "server_ms": 140.10200354666458, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.281565, "adapter": "a0", "status": 200, "wall_ms": 20.81298828125, "client": 1, "server_ms": 143.49732950949527, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.319158, "adapter": "a1", "status": 429, "wall_ms": 1.9147396087646484, "client": 1}
+{"ts": 1780733820.3155, "adapter": "a2", "status": 200, "wall_ms": 19.50383186340332, "client": 5, "server_ms": 177.4562759511539, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733820.354882, "adapter": "a8", "status": 429, "wall_ms": 3.587961196899414, "client": 4}
+{"ts": 1780733820.3815491, "adapter": "a2", "status": 429, "wall_ms": 3.555774688720703, "client": 0}
+{"ts": 1780733820.383849, "adapter": "a2", "status": 429, "wall_ms": 2.2411346435546875, "client": 2}
+{"ts": 1780733820.3861299, "adapter": "a2", "status": 429, "wall_ms": 1.5339851379394531, "client": 1}
+{"ts": 1780733820.380039, "adapter": "a1", "status": 200, "wall_ms": 20.702123641967773, "client": 4, "server_ms": 140.59420194132358, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.441858, "adapter": "a0", "status": 429, "wall_ms": 1.8889904022216797, "client": 2}
+{"ts": 1780733820.4289532, "adapter": "a2", "status": 200, "wall_ms": 17.041921615600586, "client": 0, "server_ms": 141.0090310262283, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.462028, "adapter": "a0", "status": 429, "wall_ms": 1.9099712371826172, "client": 5}
+{"ts": 1780733820.471694, "adapter": "a2", "status": 429, "wall_ms": 1.7960071563720703, "client": 5}
+{"ts": 1780733820.461643, "adapter": "a0", "status": 200, "wall_ms": 17.930984497070312, "client": 3, "server_ms": 141.38955818421482, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.534606, "adapter": "a6", "status": 200, "wall_ms": 18.741130828857422, "client": 5, "server_ms": 176.45665375811313, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733820.5773818, "adapter": "a1", "status": 200, "wall_ms": 19.999980926513672, "client": 5, "server_ms": 140.49136892304878, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.648614, "adapter": "a1", "status": 200, "wall_ms": 20.08795738220215, "client": 1, "server_ms": 143.39574770593845, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.6877692, "adapter": "a1", "status": 200, "wall_ms": 21.263837814331055, "client": 2, "server_ms": 143.97241088681886, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.717258, "adapter": "a1", "status": 200, "wall_ms": 20.28799057006836, "client": 1, "server_ms": 141.86395783663974, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.740122, "adapter": "a1", "status": 429, "wall_ms": 2.5849342346191406, "client": 0}
+{"ts": 1780733820.779665, "adapter": "a1", "status": 429, "wall_ms": 2.0241737365722656, "client": 3}
+{"ts": 1780733820.769674, "adapter": "a0", "status": 200, "wall_ms": 18.45693588256836, "client": 0, "server_ms": 141.93533862566508, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.788325, "adapter": "a9", "status": 429, "wall_ms": 1.6939640045166016, "client": 0}
+{"ts": 1780733820.799619, "adapter": "a1", "status": 429, "wall_ms": 2.1610260009765625, "client": 5}
+{"ts": 1780733820.8516061, "adapter": "a4", "status": 200, "wall_ms": 19.391775131225586, "client": 4, "server_ms": 175.34353864622466, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733820.920023, "adapter": "a6", "status": 200, "wall_ms": 17.998218536376953, "client": 2, "server_ms": 141.37054335297202, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.917724, "adapter": "a4", "status": 200, "wall_ms": 20.516157150268555, "client": 5, "server_ms": 140.40875046699267, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.938595, "adapter": "a0", "status": 429, "wall_ms": 1.7948150634765625, "client": 2}
+{"ts": 1780733820.9698958, "adapter": "a3", "status": 429, "wall_ms": 2.554178237915039, "client": 0}
+{"ts": 1780733820.977389, "adapter": "a4", "status": 429, "wall_ms": 1.6717910766601562, "client": 1}
+{"ts": 1780733820.967349, "adapter": "a1", "status": 200, "wall_ms": 20.17498016357422, "client": 5, "server_ms": 141.0590275668687, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733820.992353, "adapter": "a2", "status": 429, "wall_ms": 1.2710094451904297, "client": 2}
+{"ts": 1780733821.0208828, "adapter": "a2", "status": 200, "wall_ms": 17.893314361572266, "client": 0, "server_ms": 178.31542151248624, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733821.103064, "adapter": "a0", "status": 200, "wall_ms": 20.318984985351562, "client": 5, "server_ms": 175.64575444210573, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733821.1964679, "adapter": "a0", "status": 200, "wall_ms": 19.501209259033203, "client": 3, "server_ms": 140.092382884181, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733821.215504, "adapter": "a0", "status": 200, "wall_ms": 18.633127212524414, "client": 5, "server_ms": 143.8039422914988, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733821.2173781, "adapter": "a1", "status": 200, "wall_ms": 17.258882522583008, "client": 4, "server_ms": 142.1130295801685, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733821.245523, "adapter": "a0", "status": 429, "wall_ms": 2.3491382598876953, "client": 4}
+{"ts": 1780733821.245953, "adapter": "a0", "status": 429, "wall_ms": 2.4030208587646484, "client": 0}
+{"ts": 1780733821.2646651, "adapter": "a1", "status": 200, "wall_ms": 18.43571662902832, "client": 3, "server_ms": 140.58641015559635, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733821.298378, "adapter": "a2", "status": 429, "wall_ms": 1.8839836120605469, "client": 0}
+{"ts": 1780733821.358376, "adapter": "a0", "status": 429, "wall_ms": 2.6268959045410156, "client": 2}
+{"ts": 1780733821.354212, "adapter": "a5", "status": 200, "wall_ms": 20.81894874572754, "client": 3, "server_ms": 177.17268970352845, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733821.382498, "adapter": "a8", "status": 429, "wall_ms": 2.7709007263183594, "client": 3}
+{"ts": 1780733821.38144, "adapter": "a0", "status": 200, "wall_ms": 20.847082138061523, "client": 0, "server_ms": 140.10816996568866, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733821.4186811, "adapter": "a2", "status": 429, "wall_ms": 2.7458667755126953, "client": 0}
+{"ts": 1780733821.4176462, "adapter": "a2", "status": 200, "wall_ms": 20.099639892578125, "client": 4, "server_ms": 142.11243776375323, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733821.479197, "adapter": "a1", "status": 200, "wall_ms": 17.72308349609375, "client": 0, "server_ms": 143.91400497087588, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733821.559626, "adapter": "a8", "status": 200, "wall_ms": 20.92576026916504, "client": 4, "server_ms": 178.45330012115866, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733821.603743, "adapter": "a2", "status": 429, "wall_ms": 2.2199153900146484, "client": 1}
+{"ts": 1780733821.6002848, "adapter": "a1", "status": 200, "wall_ms": 19.840002059936523, "client": 4, "server_ms": 142.7847871436312, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733821.628202, "adapter": "a1", "status": 429, "wall_ms": 2.1560192108154297, "client": 5}
+{"ts": 1780733821.626625, "adapter": "a5", "status": 200, "wall_ms": 19.596099853515625, "client": 2, "server_ms": 176.04446078891743, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733821.697066, "adapter": "a2", "status": 429, "wall_ms": 1.7347335815429688, "client": 1}
+{"ts": 1780733821.6936882, "adapter": "a2", "status": 200, "wall_ms": 20.664691925048828, "client": 0, "server_ms": 141.4667991670447, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733821.749602, "adapter": "a1", "status": 200, "wall_ms": 18.88108253479004, "client": 1, "server_ms": 140.66816813813733, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733821.846821, "adapter": "a1", "status": 200, "wall_ms": 19.87290382385254, "client": 0, "server_ms": 143.08775163360812, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733821.902584, "adapter": "a6", "status": 200, "wall_ms": 21.55280113220215, "client": 4, "server_ms": 177.1303695899715, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733821.907885, "adapter": "a0", "status": 200, "wall_ms": 17.70186424255371, "client": 0, "server_ms": 178.1162195653527, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733821.955961, "adapter": "a7", "status": 200, "wall_ms": 18.280029296875, "client": 3, "server_ms": 176.31865998019106, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.0098581, "adapter": "a2", "status": 429, "wall_ms": 1.3098716735839844, "client": 4}
+{"ts": 1780733822.007615, "adapter": "a2", "status": 200, "wall_ms": 18.09096336364746, "client": 5, "server_ms": 175.89216669241273, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.097682, "adapter": "a0", "status": 429, "wall_ms": 1.6109943389892578, "client": 5}
+{"ts": 1780733822.0830588, "adapter": "a4", "status": 200, "wall_ms": 17.67706871032715, "client": 2, "server_ms": 178.2460449870944, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.0839, "adapter": "a2", "status": 200, "wall_ms": 17.290830612182617, "client": 4, "server_ms": 143.93970420236357, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733822.183381, "adapter": "a1", "status": 200, "wall_ms": 21.074771881103516, "client": 3, "server_ms": 178.41051519498663, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.264788, "adapter": "a4", "status": 200, "wall_ms": 20.952224731445312, "client": 1, "server_ms": 143.22431433914267, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733822.26633, "adapter": "a0", "status": 200, "wall_ms": 20.103931427001953, "client": 0, "server_ms": 178.2733317733015, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.3031948, "adapter": "a7", "status": 200, "wall_ms": 19.78015899658203, "client": 3, "server_ms": 177.95949208150284, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.3224041, "adapter": "a2", "status": 200, "wall_ms": 21.518707275390625, "client": 0, "server_ms": 175.90695796012633, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.342783, "adapter": "a0", "status": 429, "wall_ms": 3.679037094116211, "client": 1}
+{"ts": 1780733822.3459, "adapter": "a2", "status": 429, "wall_ms": 2.1829605102539062, "client": 2}
+{"ts": 1780733822.3895779, "adapter": "a6", "status": 429, "wall_ms": 1.8923282623291016, "client": 0}
+{"ts": 1780733822.3798132, "adapter": "a8", "status": 200, "wall_ms": 18.15176010131836, "client": 5, "server_ms": 177.07055489697402, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.4047549, "adapter": "a1", "status": 429, "wall_ms": 1.8110275268554688, "client": 1}
+{"ts": 1780733822.448182, "adapter": "a9", "status": 200, "wall_ms": 19.076824188232422, "client": 4, "server_ms": 176.42225017341983, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.486408, "adapter": "a6", "status": 200, "wall_ms": 19.35100555419922, "client": 3, "server_ms": 175.11592060296547, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.545208, "adapter": "a1", "status": 200, "wall_ms": 18.261194229125977, "client": 5, "server_ms": 175.11174830168827, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.578662, "adapter": "a0", "status": 200, "wall_ms": 19.546031951904297, "client": 0, "server_ms": 176.11767415619613, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.600356, "adapter": "a2", "status": 429, "wall_ms": 1.505136489868164, "client": 2}
+{"ts": 1780733822.6226401, "adapter": "a1", "status": 429, "wall_ms": 1.6129016876220703, "client": 0}
+{"ts": 1780733822.6124952, "adapter": "a0", "status": 200, "wall_ms": 16.66879653930664, "client": 5, "server_ms": 141.036697453071, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733822.6809201, "adapter": "a5", "status": 200, "wall_ms": 22.15886116027832, "client": 0, "server_ms": 177.7700877668005, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.7660851, "adapter": "a2", "status": 200, "wall_ms": 19.593000411987305, "client": 5, "server_ms": 178.82606030536536, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.787224, "adapter": "a4", "status": 200, "wall_ms": 19.253969192504883, "client": 2, "server_ms": 176.7889107110669, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.813872, "adapter": "a6", "status": 200, "wall_ms": 18.896818161010742, "client": 0, "server_ms": 178.74808480510498, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733822.904454, "adapter": "a2", "status": 200, "wall_ms": 20.601987838745117, "client": 0, "server_ms": 143.95215223281144, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733822.914196, "adapter": "a2", "status": 200, "wall_ms": 20.746946334838867, "client": 4, "server_ms": 143.82000252528533, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733822.999769, "adapter": "a0", "status": 200, "wall_ms": 19.353866577148438, "client": 3, "server_ms": 176.45854354144745, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733823.204181, "adapter": "a2", "status": 200, "wall_ms": 20.54309844970703, "client": 2, "server_ms": 140.88184929198496, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.225418, "adapter": "a1", "status": 200, "wall_ms": 18.555879592895508, "client": 3, "server_ms": 175.90738330692292, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733823.264931, "adapter": "a4", "status": 200, "wall_ms": 21.52109146118164, "client": 3, "server_ms": 175.78682465367726, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733823.3334222, "adapter": "a0", "status": 200, "wall_ms": 19.469738006591797, "client": 3, "server_ms": 140.8174934531049, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.402546, "adapter": "a0", "status": 200, "wall_ms": 19.156932830810547, "client": 3, "server_ms": 142.49626558975126, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.4037771, "adapter": "a2", "status": 200, "wall_ms": 18.46599578857422, "client": 2, "server_ms": 143.60123335153645, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.4283872, "adapter": "a2", "status": 200, "wall_ms": 18.33176612854004, "client": 4, "server_ms": 143.36174210911716, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.447493, "adapter": "a1", "status": 200, "wall_ms": 17.280101776123047, "client": 4, "server_ms": 141.91789370504614, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.581262, "adapter": "a0", "status": 200, "wall_ms": 19.66381072998047, "client": 3, "server_ms": 142.61191217136403, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.5930681, "adapter": "a0", "status": 200, "wall_ms": 18.50581169128418, "client": 2, "server_ms": 143.19857497939864, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.649673, "adapter": "a0", "status": 200, "wall_ms": 17.277002334594727, "client": 2, "server_ms": 140.33911394580153, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.6623712, "adapter": "a1", "status": 200, "wall_ms": 18.29671859741211, "client": 3, "server_ms": 142.64234260081957, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.681298, "adapter": "a1", "status": 200, "wall_ms": 19.093990325927734, "client": 0, "server_ms": 143.63910855020688, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.7079418, "adapter": "a0", "status": 200, "wall_ms": 19.98114585876465, "client": 1, "server_ms": 143.12921153639235, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.7334888, "adapter": "a2", "status": 200, "wall_ms": 20.530223846435547, "client": 5, "server_ms": 143.00056183932185, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.790752, "adapter": "a0", "status": 200, "wall_ms": 21.006107330322266, "client": 3, "server_ms": 141.912130978376, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.82929, "adapter": "a1", "status": 200, "wall_ms": 19.07205581665039, "client": 5, "server_ms": 140.71408687335028, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733823.844832, "adapter": "a4", "status": 429, "wall_ms": 4.230022430419922, "client": 3}
+{"ts": 1780733823.853444, "adapter": "a8", "status": 429, "wall_ms": 1.9168853759765625, "client": 3}
+{"ts": 1780733823.866391, "adapter": "a7", "status": 200, "wall_ms": 18.870115280151367, "client": 0, "server_ms": 178.1565417240811, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733823.902741, "adapter": "a0", "status": 429, "wall_ms": 1.91497802734375, "client": 0}
+{"ts": 1780733824.110803, "adapter": "a1", "status": 200, "wall_ms": 19.704103469848633, "client": 5, "server_ms": 141.33006879945845, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.129975, "adapter": "a1", "status": 200, "wall_ms": 19.1800594329834, "client": 2, "server_ms": 143.20329427558676, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.182983, "adapter": "a1", "status": 200, "wall_ms": 20.853042602539062, "client": 0, "server_ms": 143.88662915592863, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.2509382, "adapter": "a7", "status": 200, "wall_ms": 21.881818771362305, "client": 3, "server_ms": 141.5833539802778, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.252979, "adapter": "a8", "status": 200, "wall_ms": 20.63608169555664, "client": 1, "server_ms": 176.6055472714708, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733824.2835462, "adapter": "a1", "status": 200, "wall_ms": 17.944812774658203, "client": 5, "server_ms": 143.78718802585956, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.324063, "adapter": "a0", "status": 200, "wall_ms": 19.607067108154297, "client": 0, "server_ms": 140.6800146398876, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.3248608, "adapter": "a0", "status": 200, "wall_ms": 19.338130950927734, "client": 4, "server_ms": 142.89919466253687, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.357613, "adapter": "a2", "status": 200, "wall_ms": 21.069765090942383, "client": 2, "server_ms": 175.50815346919146, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733824.4061708, "adapter": "a0", "status": 200, "wall_ms": 20.223379135131836, "client": 5, "server_ms": 140.60460280152597, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.410611, "adapter": "a0", "status": 200, "wall_ms": 16.672134399414062, "client": 0, "server_ms": 143.61940838293296, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.44872, "adapter": "a1", "status": 429, "wall_ms": 1.9989013671875, "client": 0}
+{"ts": 1780733824.470832, "adapter": "a0", "status": 200, "wall_ms": 17.770767211914062, "client": 5, "server_ms": 143.22600792812878, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.4870908, "adapter": "a0", "status": 429, "wall_ms": 1.9831657409667969, "client": 3}
+{"ts": 1780733824.576967, "adapter": "a1", "status": 200, "wall_ms": 20.80821990966797, "client": 4, "server_ms": 140.5846972349755, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.598529, "adapter": "a0", "status": 200, "wall_ms": 17.945051193237305, "client": 4, "server_ms": 143.30604191410154, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.616566, "adapter": "a9", "status": 200, "wall_ms": 17.802000045776367, "client": 2, "server_ms": 178.9212237737881, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733824.6324139, "adapter": "a0", "status": 429, "wall_ms": 2.501249313354492, "client": 1}
+{"ts": 1780733824.663751, "adapter": "a1", "status": 200, "wall_ms": 20.35808563232422, "client": 3, "server_ms": 142.62907317094408, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.68911, "adapter": "a1", "status": 429, "wall_ms": 1.7600059509277344, "client": 5}
+{"ts": 1780733824.701675, "adapter": "a0", "status": 429, "wall_ms": 1.522064208984375, "client": 4}
+{"ts": 1780733824.719415, "adapter": "a0", "status": 200, "wall_ms": 19.47021484375, "client": 2, "server_ms": 141.40163004863, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.7662249, "adapter": "a1", "status": 429, "wall_ms": 1.7802715301513672, "client": 2}
+{"ts": 1780733824.764176, "adapter": "a1", "status": 200, "wall_ms": 19.166231155395508, "client": 3, "server_ms": 142.19464017594711, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.7982101, "adapter": "a2", "status": 429, "wall_ms": 1.6279220581054688, "client": 3}
+{"ts": 1780733824.84182, "adapter": "a2", "status": 200, "wall_ms": 18.637895584106445, "client": 2, "server_ms": 140.5239354080378, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.879766, "adapter": "a1", "status": 200, "wall_ms": 18.291950225830078, "client": 5, "server_ms": 140.05697175262443, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.910378, "adapter": "a0", "status": 200, "wall_ms": 19.099950790405273, "client": 4, "server_ms": 143.88356070895105, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733824.9437828, "adapter": "a1", "status": 429, "wall_ms": 3.4372806549072266, "client": 1}
+{"ts": 1780733824.958334, "adapter": "a0", "status": 429, "wall_ms": 3.123044967651367, "client": 3}
+{"ts": 1780733825.074707, "adapter": "a9", "status": 200, "wall_ms": 17.673969268798828, "client": 3, "server_ms": 142.5986986786953, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733825.102706, "adapter": "a7", "status": 200, "wall_ms": 18.687009811401367, "client": 2, "server_ms": 177.10632418839623, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733825.103235, "adapter": "a0", "status": 200, "wall_ms": 18.624067306518555, "client": 3, "server_ms": 143.7344992202297, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733825.145982, "adapter": "a1", "status": 429, "wall_ms": 1.8069744110107422, "client": 1}
+{"ts": 1780733825.1380322, "adapter": "a5", "status": 200, "wall_ms": 19.739866256713867, "client": 3, "server_ms": 176.73523774702994, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733825.1675699, "adapter": "a7", "status": 200, "wall_ms": 20.627975463867188, "client": 3, "server_ms": 143.4869717119576, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733825.222311, "adapter": "a6", "status": 429, "wall_ms": 3.5979747772216797, "client": 3}
+{"ts": 1780733825.214049, "adapter": "a3", "status": 200, "wall_ms": 18.414020538330078, "client": 2, "server_ms": 178.3046210072609, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733825.239593, "adapter": "a2", "status": 429, "wall_ms": 1.7578601837158203, "client": 0}
+{"ts": 1780733825.31172, "adapter": "a2", "status": 200, "wall_ms": 19.93393898010254, "client": 2, "server_ms": 175.8441693493126, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733825.36546, "adapter": "a2", "status": 200, "wall_ms": 18.845081329345703, "client": 5, "server_ms": 141.00733924546182, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733825.397614, "adapter": "a2", "status": 429, "wall_ms": 1.5912055969238281, "client": 5}
+{"ts": 1780733825.3901691, "adapter": "a7", "status": 200, "wall_ms": 18.30291748046875, "client": 0, "server_ms": 141.17186661068087, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733825.417567, "adapter": "a1", "status": 200, "wall_ms": 19.650936126708984, "client": 0, "server_ms": 175.96215757023333, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733825.5348659, "adapter": "a2", "status": 200, "wall_ms": 20.385026931762695, "client": 3, "server_ms": 142.34574867266386, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733825.56048, "adapter": "a1", "status": 200, "wall_ms": 19.829988479614258, "client": 3, "server_ms": 141.03745918108083, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733825.599319, "adapter": "a1", "status": 200, "wall_ms": 20.37191390991211, "client": 1, "server_ms": 141.67605021101818, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733825.637737, "adapter": "a2", "status": 429, "wall_ms": 1.7409324645996094, "client": 3}
+{"ts": 1780733825.635345, "adapter": "a2", "status": 200, "wall_ms": 19.93417739868164, "client": 5, "server_ms": 140.52429470601393, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733825.680754, "adapter": "a3", "status": 200, "wall_ms": 16.979217529296875, "client": 0, "server_ms": 143.6400682252622, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733825.783353, "adapter": "a0", "status": 200, "wall_ms": 17.691850662231445, "client": 3, "server_ms": 176.41513609581304, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733825.801091, "adapter": "a6", "status": 200, "wall_ms": 16.675949096679688, "client": 4, "server_ms": 176.83264394588693, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733825.813727, "adapter": "a1", "status": 200, "wall_ms": 19.161224365234375, "client": 1, "server_ms": 177.3333950881674, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733825.882602, "adapter": "a0", "status": 200, "wall_ms": 20.0350284576416, "client": 0, "server_ms": 143.61718709816816, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733825.900778, "adapter": "a4", "status": 429, "wall_ms": 2.088785171508789, "client": 4}
+{"ts": 1780733825.968517, "adapter": "a2", "status": 200, "wall_ms": 19.360065460205078, "client": 5, "server_ms": 176.68251308283627, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733825.986712, "adapter": "a1", "status": 200, "wall_ms": 17.369985580444336, "client": 4, "server_ms": 143.67088433737067, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733826.032685, "adapter": "a1", "status": 200, "wall_ms": 20.978927612304688, "client": 2, "server_ms": 142.00659576448092, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733826.059992, "adapter": "a1", "status": 200, "wall_ms": 18.701791763305664, "client": 3, "server_ms": 142.12729984974374, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733826.106377, "adapter": "a0", "status": 429, "wall_ms": 3.1890869140625, "client": 2}
+{"ts": 1780733826.1670861, "adapter": "a0", "status": 200, "wall_ms": 22.101879119873047, "client": 0, "server_ms": 142.09402634234866, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733826.206694, "adapter": "a2", "status": 429, "wall_ms": 3.0813217163085938, "client": 0}
+{"ts": 1780733826.207082, "adapter": "a2", "status": 429, "wall_ms": 3.1499862670898438, "client": 5}
+{"ts": 1780733826.206057, "adapter": "a4", "status": 200, "wall_ms": 18.192052841186523, "client": 2, "server_ms": 175.07481947162168, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733826.22093, "adapter": "a8", "status": 200, "wall_ms": 18.70107650756836, "client": 0, "server_ms": 176.76049964953978, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733826.273951, "adapter": "a1", "status": 200, "wall_ms": 20.871877670288086, "client": 4, "server_ms": 140.7324315490888, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733826.411225, "adapter": "a2", "status": 200, "wall_ms": 19.521713256835938, "client": 1, "server_ms": 175.01572992730257, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733826.466642, "adapter": "a2", "status": 200, "wall_ms": 19.674062728881836, "client": 4, "server_ms": 143.19668180196888, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733826.4935439, "adapter": "a2", "status": 429, "wall_ms": 2.151966094970703, "client": 2}
+{"ts": 1780733826.4849951, "adapter": "a5", "status": 200, "wall_ms": 18.316030502319336, "client": 0, "server_ms": 175.6893868488538, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733826.487502, "adapter": "a4", "status": 200, "wall_ms": 16.277074813842773, "client": 4, "server_ms": 176.89397172984783, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733826.549759, "adapter": "a8", "status": 429, "wall_ms": 1.6870498657226562, "client": 1}
+{"ts": 1780733826.5432582, "adapter": "a6", "status": 200, "wall_ms": 18.540620803833008, "client": 3, "server_ms": 177.9007730817895, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733826.592109, "adapter": "a0", "status": 200, "wall_ms": 18.440961837768555, "client": 0, "server_ms": 177.22590249960885, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733826.620505, "adapter": "a2", "status": 200, "wall_ms": 20.204782485961914, "client": 1, "server_ms": 176.30392860419545, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733826.641686, "adapter": "a2", "status": 429, "wall_ms": 1.583099365234375, "client": 1}
+{"ts": 1780733826.660348, "adapter": "a2", "status": 200, "wall_ms": 18.667936325073242, "client": 3, "server_ms": 142.07339485081215, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733826.752311, "adapter": "a0", "status": 200, "wall_ms": 19.062042236328125, "client": 4, "server_ms": 142.22176749952098, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733826.787719, "adapter": "a0", "status": 200, "wall_ms": 18.570899963378906, "client": 5, "server_ms": 143.1370899014619, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733826.845574, "adapter": "a1", "status": 200, "wall_ms": 21.23117446899414, "client": 2, "server_ms": 175.4244376684197, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733826.9868312, "adapter": "a2", "status": 200, "wall_ms": 18.281936645507812, "client": 4, "server_ms": 142.24118453433582, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733826.999383, "adapter": "a7", "status": 200, "wall_ms": 18.451929092407227, "client": 5, "server_ms": 175.99397728417236, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733827.020993, "adapter": "a0", "status": 200, "wall_ms": 18.35179328918457, "client": 0, "server_ms": 141.10766828185913, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.045493, "adapter": "a0", "status": 200, "wall_ms": 18.340110778808594, "client": 2, "server_ms": 143.08904439502194, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.080411, "adapter": "a0", "status": 200, "wall_ms": 18.280029296875, "client": 1, "server_ms": 142.0308559671693, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.1454778, "adapter": "a0", "status": 200, "wall_ms": 18.900394439697266, "client": 1, "server_ms": 142.2469175466259, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.1993978, "adapter": "a1", "status": 200, "wall_ms": 20.21026611328125, "client": 4, "server_ms": 143.03997257036008, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.245258, "adapter": "a2", "status": 429, "wall_ms": 1.8208026885986328, "client": 2}
+{"ts": 1780733827.230866, "adapter": "a0", "status": 200, "wall_ms": 16.881227493286133, "client": 3, "server_ms": 143.64995214531925, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.274913, "adapter": "a2", "status": 200, "wall_ms": 18.484830856323242, "client": 4, "server_ms": 141.77299357430977, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.3160791, "adapter": "a2", "status": 200, "wall_ms": 16.6018009185791, "client": 3, "server_ms": 142.45011153737784, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.330621, "adapter": "a1", "status": 429, "wall_ms": 2.5031566619873047, "client": 1}
+{"ts": 1780733827.333629, "adapter": "a1", "status": 429, "wall_ms": 1.3451576232910156, "client": 2}
+{"ts": 1780733827.40936, "adapter": "a2", "status": 200, "wall_ms": 20.039081573486328, "client": 3, "server_ms": 142.02221252340487, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.439785, "adapter": "a2", "status": 200, "wall_ms": 19.917011260986328, "client": 0, "server_ms": 142.04864588974127, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.459121, "adapter": "a0", "status": 429, "wall_ms": 1.972198486328125, "client": 2}
+{"ts": 1780733827.4937532, "adapter": "a8", "status": 200, "wall_ms": 20.166873931884766, "client": 4, "server_ms": 177.7709240101929, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733827.621026, "adapter": "a2", "status": 200, "wall_ms": 20.027875900268555, "client": 1, "server_ms": 141.80938316905963, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.640461, "adapter": "a2", "status": 200, "wall_ms": 18.680095672607422, "client": 4, "server_ms": 142.1331417503167, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.645028, "adapter": "a1", "status": 200, "wall_ms": 18.13673973083496, "client": 2, "server_ms": 141.91214527212833, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.661047, "adapter": "a0", "status": 200, "wall_ms": 19.819021224975586, "client": 1, "server_ms": 143.766004510154, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.67888, "adapter": "a0", "status": 429, "wall_ms": 2.5260448455810547, "client": 0}
+{"ts": 1780733827.7076218, "adapter": "a2", "status": 429, "wall_ms": 3.584146499633789, "client": 2}
+{"ts": 1780733827.722901, "adapter": "a1", "status": 200, "wall_ms": 18.997907638549805, "client": 5, "server_ms": 142.79687152872114, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.791806, "adapter": "a2", "status": 200, "wall_ms": 20.00904083251953, "client": 3, "server_ms": 143.50614192712237, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.811268, "adapter": "a2", "status": 200, "wall_ms": 18.52583885192871, "client": 2, "server_ms": 143.76872235321432, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.828331, "adapter": "a2", "status": 429, "wall_ms": 2.6078224182128906, "client": 3}
+{"ts": 1780733827.828691, "adapter": "a8", "status": 429, "wall_ms": 2.7570724487304688, "client": 5}
+{"ts": 1780733827.8565152, "adapter": "a1", "status": 429, "wall_ms": 1.46484375, "client": 1}
+{"ts": 1780733827.8711941, "adapter": "a2", "status": 200, "wall_ms": 18.082857131958008, "client": 0, "server_ms": 141.03836917647075, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.890904, "adapter": "a6", "status": 429, "wall_ms": 1.6772747039794922, "client": 4}
+{"ts": 1780733827.930163, "adapter": "a1", "status": 429, "wall_ms": 2.9621124267578125, "client": 3}
+{"ts": 1780733827.916039, "adapter": "a1", "status": 200, "wall_ms": 18.226146697998047, "client": 0, "server_ms": 142.23805522599085, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733827.944881, "adapter": "a0", "status": 429, "wall_ms": 2.9921531677246094, "client": 2}
+{"ts": 1780733827.973742, "adapter": "a4", "status": 200, "wall_ms": 19.683837890625, "client": 2, "server_ms": 178.77306813605392, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733828.063385, "adapter": "a0", "status": 200, "wall_ms": 18.97406578063965, "client": 1, "server_ms": 143.3599991335728, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733828.0678551, "adapter": "a1", "status": 200, "wall_ms": 16.66879653930664, "client": 2, "server_ms": 140.54853774358742, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733828.085284, "adapter": "a0", "status": 429, "wall_ms": 1.566171646118164, "client": 5}
+{"ts": 1780733828.085931, "adapter": "a3", "status": 429, "wall_ms": 1.3480186462402344, "client": 1}
+{"ts": 1780733828.0926862, "adapter": "a8", "status": 429, "wall_ms": 1.8138885498046875, "client": 5}
+{"ts": 1780733828.092389, "adapter": "a1", "status": 429, "wall_ms": 2.2280216217041016, "client": 2}
+{"ts": 1780733828.163595, "adapter": "a6", "status": 200, "wall_ms": 22.695064544677734, "client": 3, "server_ms": 175.48648781753673, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733828.164798, "adapter": "a2", "status": 200, "wall_ms": 22.204160690307617, "client": 5, "server_ms": 176.76847235310018, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733828.196853, "adapter": "a2", "status": 429, "wall_ms": 2.429962158203125, "client": 0}
+{"ts": 1780733828.231714, "adapter": "a2", "status": 200, "wall_ms": 20.620107650756836, "client": 2, "server_ms": 140.29018439862594, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733828.295885, "adapter": "a8", "status": 200, "wall_ms": 20.254850387573242, "client": 4, "server_ms": 175.9625550338131, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733828.4090948, "adapter": "a6", "status": 200, "wall_ms": 20.56717872619629, "client": 1, "server_ms": 140.29248306789069, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733828.4379258, "adapter": "a1", "status": 200, "wall_ms": 20.669221878051758, "client": 0, "server_ms": 142.67788858123959, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733828.5850172, "adapter": "a6", "status": 200, "wall_ms": 21.513938903808594, "client": 1, "server_ms": 143.13574406869262, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733828.8022451, "adapter": "a0", "status": 200, "wall_ms": 21.22783660888672, "client": 5, "server_ms": 178.58810573151507, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733828.8235478, "adapter": "a2", "status": 200, "wall_ms": 19.126176834106445, "client": 0, "server_ms": 175.61778649507477, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733828.850324, "adapter": "a1", "status": 200, "wall_ms": 20.721912384033203, "client": 0, "server_ms": 142.8644795311528, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733828.876874, "adapter": "a3", "status": 200, "wall_ms": 18.83697509765625, "client": 0, "server_ms": 177.64102606076548, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733828.8983822, "adapter": "a6", "status": 200, "wall_ms": 18.178701400756836, "client": 3, "server_ms": 175.57191599169695, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733828.922247, "adapter": "a4", "status": 200, "wall_ms": 17.729997634887695, "client": 1, "server_ms": 178.5313313346283, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733828.97164, "adapter": "a1", "status": 200, "wall_ms": 19.697904586791992, "client": 4, "server_ms": 143.87017913066555, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733829.016978, "adapter": "a8", "status": 200, "wall_ms": 18.68891716003418, "client": 1, "server_ms": 175.87835132320768, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733829.019624, "adapter": "a0", "status": 200, "wall_ms": 16.66092872619629, "client": 4, "server_ms": 178.81001651567595, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733829.035201, "adapter": "a1", "status": 200, "wall_ms": 17.514944076538086, "client": 0, "server_ms": 141.59302749886908, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733829.0508301, "adapter": "a8", "status": 200, "wall_ms": 18.615007400512695, "client": 4, "server_ms": 141.94904309996352, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733829.114039, "adapter": "a1", "status": 200, "wall_ms": 19.896268844604492, "client": 0, "server_ms": 143.95948581897716, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733829.1670048, "adapter": "a2", "status": 200, "wall_ms": 21.360158920288086, "client": 0, "server_ms": 178.32977867793178, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733829.170878, "adapter": "a2", "status": 200, "wall_ms": 18.197059631347656, "client": 2, "server_ms": 140.64586423952352, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733829.226572, "adapter": "a8", "status": 200, "wall_ms": 20.122766494750977, "client": 0, "server_ms": 141.72608727199056, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733829.246069, "adapter": "a0", "status": 200, "wall_ms": 18.377065658569336, "client": 4, "server_ms": 142.06242023121743, "cache_hit": true, "cost": 7.8e-05}
+{"ts": 1780733829.268599, "adapter": "a2", "status": 429, "wall_ms": 1.8339157104492188, "client": 1}
+{"ts": 1780733829.261344, "adapter": "a3", "status": 200, "wall_ms": 20.623207092285156, "client": 2, "server_ms": 176.35646457735527, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733829.299245, "adapter": "a2", "status": 429, "wall_ms": 3.509044647216797, "client": 1}
+{"ts": 1780733829.313856, "adapter": "a1", "status": 200, "wall_ms": 18.66912841796875, "client": 3, "server_ms": 175.78297866453573, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733829.3566349, "adapter": "a2", "status": 429, "wall_ms": 2.852201461791992, "client": 5}
+{"ts": 1780733829.360074, "adapter": "a7", "status": 200, "wall_ms": 18.831968307495117, "client": 2, "server_ms": 176.27410227335076, "cache_hit": false, "cost": 7.8e-05}
+{"ts": 1780733829.385973, "adapter": "a4", "status": 429, "wall_ms": 2.5839805603027344, "client": 5}
