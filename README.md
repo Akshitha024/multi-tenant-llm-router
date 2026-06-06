@@ -98,7 +98,7 @@ The API key check uses `hmac.compare_digest` so it's constant-time.
 ```mermaid
 flowchart LR
     C[Client] -->|"POST /v1/generate"| R[FastAPI router]
-    R --> A1[Auth: Bearer key -> Tenant]
+    R --> A1["Auth: Bearer key -> Tenant"]
     A1 --> A2{Tenant allowed adapter?}
     A2 -->|no| F[403]
     A2 -->|yes| RL[Token-bucket rate limit]
