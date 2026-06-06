@@ -1,5 +1,5 @@
 ---
-title: "multi-tenant-llm-router: Multi-tenant LLM router with per-tenant auth, rate limits, LRU adapter cache"
+title: "multi-tenant-llm-router: a routing tier for multi-LoRA vLLM serving"
 author: "Akshitha Reddy Lingampally"
 date: "2026-06-06"
 geometry: margin=1in
@@ -8,198 +8,192 @@ fontsize: 11pt
 
 # Abstract
 
-Multi-tenant LLM router with per-tenant auth, rate limits, LRU adapter cache
-
-This report presents the methodology, dataset, evaluation results, and analysis
-of the multi-tenant-llm-router project. We describe the design choices, baseline
-comparisons, and the key empirical findings that distinguish this approach from
-prior work. All code, data preparation scripts, and figures are reproducible from
-the open-source repository.
+We present `multi-tenant-llm-router`, a FastAPI routing tier that sits
+in front of a vLLM `--enable-lora` server and adds the production
+concerns vLLM does not give you: per-tenant API key auth, per-tenant
+token-bucket rate limits, an LRU adapter cache, per-request structured
+JSONL logging, and per-tenant cost accounting. We report a load
+benchmark of 6 concurrent clients × 5 req/s × 15 seconds against the
+in-process mock backend: 429 requests total, 318 successful, 64.8%
+cache hit rate, p99 wall latency of 30 ms, 26% of requests rate-limited
+(by design, as the offered load of 30 req/s exceeds the configured
+20 req/s tenant rate limit). All numbers are reproducible from a single
+`make bench` invocation; the mock backend lets the suite run without
+a GPU.
 
 # 1. Background
 
-The problem this project addresses is part of a broader research direction in
-applied machine learning. Below we situate the work in the context of recent
-literature and identify the specific gap this project tries to close.
+vLLM (Kwon et al., 2023) is the production-default high-throughput LLM
+inference server, with first-class support for multi-LoRA serving via
+S-LoRA (Sheng et al., 2024). It does not, however, ship the routing-tier
+concerns that any multi-tenant production deployment needs:
 
-## 1.1 Motivation
+- Authentication (which tenant is calling)
+- Authorization (which adapters that tenant can use)
+- Rate limits (per-tenant token-bucket)
+- Cost accounting (per-tenant USD)
+- Structured logs for billing + observability
+- Adapter-cache bookkeeping (which adapters are currently warm)
 
-Multi-tenant LLM router with per-tenant auth, rate limits, LRU adapter cache The remainder of this section motivates the choice of approach.
-
-## 1.2 Scope
-
-This report covers:
-
-- The dataset and its provenance
-- The methodology and design choices
-- Quantitative results on held-out evaluation
-- Ablation studies on the key hyperparameters
-- Limitations and recommended next steps
+This project is the routing layer that sits between clients and a real
+vLLM backend and adds those concerns. The actual GPU work stays in vLLM;
+this layer is what makes it safe to expose to many tenants.
 
 # 2. Related Work
 
-Several lines of work bear directly on this project:
+**vLLM** (Kwon et al., 2023): the inference server. PagedAttention is
+the technical contribution we build on top of.
 
-1. **Foundation methods.** The seminal papers in this area established the
-   core algorithms and evaluation protocols we reuse.
-2. **Recent extensions.** More recent work has explored variants that address
-   specific shortcomings of the foundation methods.
-3. **Production deployments.** Several open-source implementations exist in
-   the wild; we cite the most relevant ones in the References section.
+**S-LoRA** (Sheng et al., 2024): multi-LoRA serving with thousands of
+concurrent adapters. The vLLM `--enable-lora` flag implements S-LoRA.
 
-A complete reference list is in Section 11.
+**LoRA** (Hu et al., 2022): the underlying parameter-efficient
+adaptation method.
 
 # 3. Method
 
-This section describes the technical approach.
+## 3.1 Pipeline
 
-## 3.1 Overall Architecture
+```
+Client -> FastAPI router:
+  1. Authenticate (Bearer key -> Tenant via constant-time hmac compare)
+  2. Authorize  (req.adapter_id in tenant.allowed_adapters?)
+  3. Rate limit (per-tenant token-bucket; refills at tenant.rate_limit_rps)
+  4. Cache      (LRUAdapterCache.request -> was_cached, swap_ms)
+  5. Backend    (vLLM completion call; mock for tests/CI)
+  6. Log        (structured JSONL row to results/requests.jsonl)
+  7. Return
+```
 
-The system follows a standard pipeline: input ingestion, transformation,
-inference (or retrieval), and evaluation. The architecture diagram below
-shows the per-stage breakdown.
+## 3.2 Tenant config
 
-![Architecture](../../results/figures/architecture.png){width=80%}
+YAML, one block per tenant; loaded at startup.
 
-## 3.2 Component-Level Design
+```yaml
+t1:
+  api_key: secret-t1
+  allowed_adapters: [a0, a1, a2, ...]
+  rate_limit_rps: 20.0
+  cost_per_1k_tokens_usd: 0.002
+```
 
-Each component has a single well-defined responsibility. We describe each
-in turn.
+API key check uses `hmac.compare_digest` (constant time, no prefix-leak
+side channel).
 
-### 3.2.1 Data Loader
+## 3.3 LRU adapter cache
 
-The data loader normalizes the input format and exposes a uniform interface
-to downstream components. It supports both the canonical benchmark format
-and a synthetic fixture for CI.
+The cache is bookkeeping-only: it tracks which adapter IDs would be
+warm if we were a real vLLM. Real GPU eviction is vLLM's job. On a
+hit we return the warm hit; on a miss we pay a configurable
+`mock_swap_ms` so the chart layer can show realistic swap-time
+distributions.
 
-### 3.2.2 Core Processing
+## 3.4 Token bucket
 
-The core component implements the main algorithm. Implementation details are
-in `src/`; the per-function docstrings describe inputs, outputs, and complexity.
+In-process, per-tenant, refills at `rate_limit_rps` tokens per second.
+Bucket capacity equals `rate_limit_rps` (so a burst of N requests at
+exactly N RPS sees them all admitted; the (N+1)th is rate-limited
+until next refill). Production should use a Redis-backed bucket for
+multi-replica deployment.
 
-### 3.2.3 Evaluation
+## 3.5 Mock backend
 
-The evaluator computes the metrics described in Section 5 and writes results
-to `results/` for downstream visualization.
-
-## 3.3 Configuration
-
-All hyperparameters are surfaced through the CLI and `pyproject.toml`.
-Defaults are chosen to be safe on a CPU-only laptop; faster machines can
-increase batch sizes and run sizes.
+`MockBackend` simulates Poisson-distributed latency around a
+`base_latency_ms + per_token_ms * max_tokens` model. Used for CI and
+local development so the harness works without a GPU.
 
 # 4. Data
 
-## 4.1 Dataset
-
-We use a small but realistic dataset chosen to make the suite reproducible
-on a laptop. For production runs, swap in the corresponding full-scale
-public corpus as documented in the README.
-
-## 4.2 Pre-Processing
-
-Pre-processing follows the published protocol for the relevant benchmark
-where one exists. Custom additions (chunking, normalization, deduplication)
-are documented in the code and reproducible from the Makefile.
-
-## 4.3 Splits
-
-The train/dev/test split is fixed by seed for reproducibility. The exact
-split is recorded in `results/` so that re-runs are bit-comparable.
+Synthetic: load generator spawns N concurrent async clients (httpx),
+each emitting Poisson-distributed requests at `rps`. Each request
+picks an adapter at random from the tenant's allowed set, with 70%
+probability hitting the "hot" top-3 (Pareto-style distribution).
 
 # 5. Evaluation Setup
 
-## 5.1 Metrics
-
-The metric set is chosen to surface different failure modes of the system,
-not just one headline number. Detailed metric definitions are in the
-section-relevant references.
-
-## 5.2 Baselines
-
-We compare against the published baselines that are most directly comparable,
-and against a trivial baseline (random / majority class) to establish a floor.
-
-## 5.3 Hardware
-
-All results in this report were produced on a CPU-only MacBook M-series.
-GPU runs would be faster but should not change the rank order of the
-methods compared here.
+Default load run: 6 concurrent clients × 5 req/s each × 15s duration,
+cache capacity = 4, 10 adapters with 70% traffic to top-3, mock
+backend. Hardware: Apple M-series CPU.
 
 # 6. Results
 
-## 6.1 Headline Numbers
+| metric               |    value  |
+|----------------------|----------:|
+| total requests       |       429 |
+| successful (200)     |       318 |
+| rate-limited (429)   |       111 |
+| cache hit rate       |     0.648 |
+| p50 wall latency     |    19.2ms |
+| p95 wall latency     |    21.6ms |
+| p99 wall latency     |    29.6ms |
+| top-3 adapter share  |     75.5% |
+| total cost (USD)     |  $0.0248  |
 
-The headline numbers are in the README table. The figures below break those
-numbers down across the axes that matter most for this task.
+Two clean findings:
 
-![Primary chart](../../results/figures/primary.png){width=80%}
-
-## 6.2 Per-Slice Analysis
-
-Beyond the headline, we report per-category, per-difficulty, and per-input-
-type breakdowns. The per-slice charts make it visible which inputs the
-system handles well and which it fails on.
-
-![Secondary chart](../../results/figures/secondary.png){width=80%}
+1. **111 of 429 requests (~26%) were rate-limited.** The fixture
+   tenant t1 has `rate_limit_rps = 20`, but 6 clients × 5 RPS = 30
+   RPS offered. The token-bucket correctly sheds the excess.
+2. **Cache hit rate = 0.648 with capacity 4 and 10 adapters.**
+   Because the top-3 get 70% of requests and the cache holds 4,
+   those three plus one rotating slot stay warm. Bumping capacity
+   to 6 would cover the top-6 and push hit rate over 0.85; that's
+   the first lever to reach for.
 
 # 7. Ablations
 
-We ran small ablations on the most-impactful hyperparameters. The full
-sweeps are reproducible from the Makefile; the headline result of each
-ablation is summarized here.
-
-## 7.1 Ablation 1
-
-The first ablation varies the most-tuned hyperparameter across its
-recommended range. The result shows the expected monotonic behavior.
-
-## 7.2 Ablation 2
-
-A second ablation varies the input-side preprocessing to verify the
-sensitivity claim.
+The cache-capacity sweep ∈ {2, 4, 6, 8, 10} confirms the expected
+monotonic hit rate increase. The 70-30 Pareto traffic pattern means
+the marginal return on capacity falls off after capacity = top-N
+hot adapters; capacity beyond the hot-adapter count buys negligible
+hit rate.
 
 # 8. Discussion
 
-Three things worth being explicit about:
+The routing tier is what makes vLLM safe for multi-tenant production.
+The five concerns it adds (auth, authz, rate limit, cost, cache
+bookkeeping) are deliberately each small (~50-200 lines per
+concern); the value is in having all five together with consistent
+structured logging.
 
-1. **Result interpretation.** What the numbers mean in practice (not just
-   what they are).
-2. **Surprising findings.** Where the data contradicted our prior.
-3. **What to do next.** The set of next experiments motivated by these
-   results.
+The mock-backend pattern is important: it lets the full request
+pipeline run in CI without a GPU, which means the test suite catches
+regressions in auth / rate limit / logging without spending GPU time.
 
 # 9. Limitations
 
-A complete limitations list:
-
-1. Dataset scale: the in-CI run uses a small fixture; production behavior
-   may differ.
-2. Hardware: results were collected CPU-only; GPU runs may produce different
-   absolute numbers (rank order should be stable).
-3. Baselines: we compared against the most directly comparable published
-   methods, not against every method in the literature.
+1. **In-process rate limit.** Per-process token bucket; multi-replica
+   deployment needs Redis-backed (e.g. `slowapi` with Redis).
+2. **No SSE pass-through.** vLLM supports streaming; the router
+   currently buffers. Streaming pass-through is the obvious next add.
+3. **Cache bookkeeping only.** The router doesn't actually call
+   vLLM's `load_adapter` / `unload_adapter`; that integration is
+   future work.
+4. **Mock latency ≠ real vLLM.** The mock is fast (~20 ms) because
+   it doesn't actually generate; real GPU vLLM is 50-200 ms.
 
 # 10. Future Work
 
-- [ ] Scale up to the full public dataset.
-- [ ] Add the GPU code path and report wall-clock and tokens/sec.
-- [ ] Run statistical-significance tests on the per-slice deltas.
-- [ ] Compare against one more recent baseline.
+- [ ] Real vLLM backend client (POST /v1/load_adapter,
+      /v1/completions).
+- [ ] SSE pass-through for streaming completions.
+- [ ] Prometheus `/metrics` endpoint.
+- [ ] Redis-backed rate limiter for multi-replica.
+- [ ] Per-adapter SLO config (route around hot adapters when p99
+      exceeds threshold).
 
 # 11. References
 
-See the project's `CITATION.cff` and README for the full bibliography. The
-core references for this project are:
+- Hu, E. J., et al. (2022). *LoRA: Low-Rank Adaptation of Large
+  Language Models.* arXiv:2106.09685.
+- Kwon, W., et al. (2023). *Efficient Memory Management for Large
+  Language Model Serving with PagedAttention.* SOSP. arXiv:2309.06180.
+- Sheng, Y., et al. (2024). *S-LoRA: Serving Thousands of Concurrent
+  LoRA Adapters.* arXiv:2311.03285.
 
-1. The seminal paper for the technique.
-2. The benchmark or dataset paper.
-3. A recent survey of the area.
+# Appendix A. Reproducibility
 
-# Appendix A. Reproducibility Checklist
-
-- [x] All code is open source under MIT.
-- [x] All hyperparameters are recorded in `pyproject.toml` defaults + CLI.
-- [x] All random seeds are fixed in the runner.
-- [x] All datasets are downloaded from a public source.
-- [x] Test artifacts are captured in `docs/test_results/`.
+- Repo: `Akshitha024/multi-tenant-llm-router`, MIT.
+- Reproduce: `make serve` (in one terminal) + `make bench` + `make
+  plots` (in another).
+- Test artifacts in `docs/test_results/`.
