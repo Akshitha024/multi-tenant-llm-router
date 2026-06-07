@@ -1,0 +1,21 @@
+# Traffic Lanes palette for this repo. Re-rendered charts pick this up.
+axes.facecolor: #FFF8E7
+figure.facecolor: #FFF8E7
+axes.edgecolor: #1c1c1c
+axes.labelcolor: #1c1c1c
+axes.titlecolor: #1c1c1c
+axes.titleweight: bold
+xtick.color: #1c1c1c
+ytick.color: #1c1c1c
+grid.color: #E9D8A6
+grid.alpha: 0.5
+axes.grid: True
+axes.spines.top: False
+axes.spines.right: False
+axes.prop_cycle: cycler('color', [#001219, #005F73, #0A9396, #94D2BD, #E9D8A6, #EE9B00])
+font.family: sans-serif
+font.sans-serif: Helvetica, Arial, DejaVu Sans
+font.size: 10
+figure.titlesize: 14
+figure.titleweight: bold
+image.cmap: GnBu

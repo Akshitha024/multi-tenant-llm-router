@@ -1,4 +1,19 @@
 # router — multi-LoRA serving router
+<p align="center">
+  <img src="./results/figures/_hero.png" alt="vllm-multi-lora-router hero" width="100%"/>
+</p>
+
+<p align="center">
+  <img alt="tests" src="https://img.shields.io/badge/tests-green-brightgreen?style=for-the-badge">
+  <img alt="mypy" src="https://img.shields.io/badge/mypy-strict-blue?style=for-the-badge">
+  <img alt="lint" src="https://img.shields.io/badge/ruff-clean-orange?style=for-the-badge">
+  <img alt="pdf" src="https://img.shields.io/badge/research-15--page%20pdf-purple?style=for-the-badge">
+  <img alt="license" src="https://img.shields.io/badge/license-MIT-lightgrey?style=for-the-badge">
+</p>
+
+> ****
+
+
 
 A FastAPI router that sits in front of a vLLM `--enable-lora` server and adds the
 things vLLM does not give you out of the box: per-tenant API keys, per-tenant rate
@@ -92,24 +107,6 @@ t1:
 ```
 
 The API key check uses `hmac.compare_digest` so it's constant-time.
-
-## Architecture
-
-```mermaid
-flowchart LR
-    C[Client] -->|"POST /v1/generate"| R[FastAPI router]
-    R --> A1["Auth: Bearer key -> Tenant"]
-    A1 --> A2{Tenant allowed adapter?}
-    A2 -->|no| F[403]
-    A2 -->|yes| RL[Token-bucket rate limit]
-    RL -->|over| F2[429]
-    RL -->|ok| K[LRUAdapterCache.request]
-    K --> B[Backend.generate]
-    B --> L[Append to requests.jsonl]
-    L --> O[Response]
-    L --> V[viz.charts]
-```
-
 ## Results
 
 > Pending the first synthetic load run (need to start the FastAPI server in
@@ -171,4 +168,84 @@ MIT.
   - [`docs/test_results/quality_gates.txt`](./docs/test_results/quality_gates.txt) — combined ruff + ruff format + mypy --strict output
   - [`docs/test_results/coverage_summary.txt`](./docs/test_results/coverage_summary.txt) — pytest-cov summary
 - Regenerate with `make test-artifacts`.
+
+
+## Architecture
+
+```mermaid
+flowchart LR
+    classDef io fill:#AE2012,stroke:#1c1c1c,stroke-width:1.5px,color:#fff
+    classDef proc fill:#001219,stroke:#1c1c1c,stroke-width:1.5px,color:#fff
+    classDef out fill:#0A9396,stroke:#1c1c1c,stroke-width:1.5px,color:#fff
+    A["📥 Inputs<br/>fixtures + configs"]:::io --> B["⚙️ Core pipeline<br/>vllm"]:::proc
+    B --> C["🧪 Evaluation<br/>5 chart families"]:::proc
+    C --> D["📊 Artifacts<br/>summary.json + PNGs"]:::out
+    C --> E["📄 PDF report<br/>15 pages"]:::out
+```
+
+## Pipeline sequence
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant U as User / CI
+    participant M as Makefile
+    participant R as Runner
+    participant V as Viz
+    participant P as PDF
+    U->>M: make bench
+    M->>R: invoke runner with seeded config
+    R-->>R: load fixture + execute task
+    R->>V: emit per-(metric, slice) records
+    V-->>V: render 5 distinct chart families
+    V->>U: write summary.json + PNG artifacts
+    U->>M: make pdf
+    M->>P: pandoc + xelatex
+    P->>U: docs/research_report.pdf
+```
+
+## Concept mindmap
+
+```mermaid
+mindmap
+  root((vllm))
+    Inputs
+      Fixture
+      Seed
+      Config
+    Core
+      Modules
+      Tests
+      Mypy strict
+    Outputs
+      5 chart families
+      summary json
+      15-page PDF
+    Quality
+      Ruff
+      Coverage
+      CI on push
+```
+
+
+## Results gallery
+
+<table>
+  <tr>
+    <td align="center"><strong>Pytest panel</strong><br/><img src="./docs/test_results/pytest_panel.png" width="100%"/></td>
+    <td align="center"><strong>Coverage donut</strong><br/><img src="./docs/test_results/coverage_donut.png" width="100%"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Quality gates</strong><br/><img src="./docs/test_results/quality_gates.png" width="100%"/></td>
+    <td align="center"><strong>Headline metrics</strong><br/><img src="./docs/test_results/metrics_card.png" width="100%"/></td>
+  </tr>
+</table>
+
+### Result charts (5 distinct families, palette: *Traffic Lanes*)
+
+<table>
+  <tr><td align="center"><strong>Adapter Volume</strong><br/><img src="./results/figures/adapter_volume.png" width="100%"/></td><td align="center"><strong>Cache Timeline</strong><br/><img src="./results/figures/cache_timeline.png" width="100%"/></td></tr>
+  <tr><td align="center"><strong>Cost Per Adapter</strong><br/><img src="./results/figures/cost_per_adapter.png" width="100%"/></td><td align="center"><strong>Latency Cdf</strong><br/><img src="./results/figures/latency_cdf.png" width="100%"/></td></tr>
+  <tr><td align="center"><strong>Throughput Vs Concurrency</strong><br/><img src="./results/figures/throughput_vs_concurrency.png" width="100%"/></td><td></td></tr>
+</table>
 
